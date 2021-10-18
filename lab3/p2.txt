@@ -1,0 +1,14 @@
+START
+	number:a
+	number:b
+	number:i
+	BEGIN
+		read a.
+		read b.
+		while b !==! 0 do
+			i=b
+			b=a%b
+			a=i
+		write a.
+	END
+STOP

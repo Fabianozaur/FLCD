@@ -1,0 +1,25 @@
+START
+	number:1  //lexical errror
+	number:b
+	number:c
+	integer:total //lexical error
+	char:z
+	BEGIN
+		read 1.
+		read b.
+		read c.
+		total=1+b+c
+		write total.
+	END
+STOP
+
+
+
+
+
+
+
+
+
+
+

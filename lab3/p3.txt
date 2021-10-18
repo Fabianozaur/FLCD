@@ -1,0 +1,16 @@
+START
+	number:n
+	number:cn
+	number:total
+	arr[20] of number:list
+	BEGIN
+		read n.
+		cn=n
+		while cn !==! 0
+		do
+			cn=cn-1
+			read list[cn].
+			total=total+lista[cn]
+		write total.
+	END	
+STOP
