@@ -1,14 +1,14 @@
 START
-	number:a
-	number:b
+	number:ab
+	number:ba
 	number:c
 	number: max
 	BEGIN
-		read a.
-		read b.
+		read ab.
+		read ba.
 		read c.
-		max=a
-		if b > max then max=b
+		max=ab
+		if ba > max then max=ba
 		if c > max then max=c
 		write max.
 	END	

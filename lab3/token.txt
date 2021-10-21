@@ -19,7 +19,6 @@ START
 STOP
 number
 char
-real
 arr
 of
 BEGIN

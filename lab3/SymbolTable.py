@@ -56,21 +56,6 @@ class SymbolTable:
         return self.hashT.getPosition(value)
 
 
-if __name__ == '__main__':
-    tokens = ['a', 'b', 'aba', 'baa','aab','1']
-    size = len(tokens)
-
-    st = SymbolTable(size)
-
-    for t in tokens:
-        st.add(t)
-
-    print(st)
-
-    print(st.getPosition('ba'))
-
-    assert (st.contains('baa') is True)
-    print("Tests passed")
 
 
 
